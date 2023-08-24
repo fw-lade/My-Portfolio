@@ -23,7 +23,7 @@ const Intro = () => {
           <div className="i-socials">
             <a href="https://github.com/fw-lade" target='_blank'><i style={{color: darkMode && '#fff'}} class="fa fa-github github icon"></i></a>
             <a href="https://www.linkedin.com/in/bello-ololade-85b033233/" target='_blank'><i style={{color: darkMode && '#fff'}} class="fa fa-linkedin linkedin-icon"></i></a>
-            <a href="https://instagram.com/lollypizzle_?igshid=YmMyMTA2M2Y=" target='_blank'><i style={{color: darkMode && '#fff'}} className="fa fa-instagram instagram-icon"></i></a>
+            <a href="https://instagram.com/lade.xy?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target='_blank'><i style={{color: darkMode && '#fff'}} className="fa fa-instagram instagram-icon"></i></a>
           </div>
         </div>
       </div>
