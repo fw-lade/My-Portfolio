@@ -1,0 +1,161 @@
+.a{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.a-left{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+.a-right{
+  flex: 1;
+}
+.a-card.bg{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #333;
+}
+.a-card{
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.a-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.a-title{
+  font-weight: 400;
+}
+.a-sub{
+  margin: 20px 0px;
+}
+.a-desc{
+  font-weight: 300;
+  margin-right: 30px;
+  text-align: start;
+}
+
+.t-stack h1{
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 30px;
+}
+.t-s-right-wrapper{
+  /* padding:0 10px 10px 10px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.card--stack{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .card--stack p{
+  text-align: center;
+} */
+.card--stack img{
+  margin-bottom: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .card--stack p{
+    display: none;
+  }
+  .t-s-right-wrapper{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .a{
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .card--stack span img{
+    width: 40px;
+    height: 40px;
+  }
+  .a-card .bg{
+    width: 100%;
+    height: 80%;
+  }
+  .a-img{
+    width: 100%;
+    height: 100%;
+  }
+  .a-card{
+    width: 60%;
+    height: 60vh;
+  }
+  .a-desc{
+    font-size: 13px;
+    /* padding: 0px 20px; */
+  }
+  .card--stack img{
+    width: 37px;
+    height: 37px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .a{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    height: 100%;
+  }
+  .a-left{
+    width: 100%;
+  }
+  .a-card{
+    height: 30vh;
+    width: 48%;
+    border-radius: 10px;
+  }
+  .a-title{
+    font-size: 25px;
+  }
+  .a-sub{
+    font-size: 14px;
+  }
+  .a-desc{
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-right: -20px;
+  }
+  .a-card.bg{
+    display: none;
+  }
+  .a img{
+    height: 80%;
+  }
+  .t-stack h1{
+    font-size: 30px;
+    width: 100%;
+  }
+  .t-s-right-wrapper{
+    padding: 10px;
+  }
+  .card--stack span p{
+    display: none;
+  }
+  .card--stack{
+    align-items: center;
+  }
+}
